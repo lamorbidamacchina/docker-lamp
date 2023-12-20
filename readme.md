@@ -5,7 +5,7 @@ A basic LAMP environment for PHP developers.
 ## Instructions
 
 - If you haven't installed it yet, get Docker Desktop from here: 
-[https://www.docker.com/products/docker-desktop/](url)
+[https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
 
 
 - Open Docker Desktop
@@ -14,7 +14,7 @@ A basic LAMP environment for PHP developers.
 
 `docker-compose up`
 
-- Browse to [localhost:8000](url)
+- Browse to [localhost:8000](http://localhost:8000)
 
 - If you read "Connected to MySQL server successfully!" your Docker container is working and you can start developing your project without further server configuration ;)
 
