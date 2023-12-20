@@ -1,7 +1,6 @@
 <?php
 // index.php
-// Il nome del servizio definito in >docker-compose.yml.
-
+// Note: $host value should be the same defined in docker-compose.yml as services.db.container_name value.
 $host = 'db';
 $user = 'myuser';
 $pass = 'mypass';
