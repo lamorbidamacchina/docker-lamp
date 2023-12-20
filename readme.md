@@ -1,6 +1,6 @@
 # Docker-lamp
 
-A basic LAMP environment for PHP developers.
+A basic LAMP environment for PHP developers, in a handy Docker container.
 
 ## Instructions
 
