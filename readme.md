@@ -17,7 +17,7 @@ A basic LAMP environment for PHP developers, in a handy Docker container.
 
 - If you read "Connected to MySQL server successfully!" your Docker container is working and you can start developing your project without further server configuration ;)
 
-## Notes
+## Switching PHP/Mysql versions
 
 This container runs with PHP 8.0.0 and the latest stable version of MySql.
 If you need to change the versions of PHP and/or Mysql:
