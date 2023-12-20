@@ -4,8 +4,7 @@ A basic LAMP environment for PHP developers.
 
 ## Instructions
 
-- If you haven't installed it yet, get Docker Desktop from here: 
-[https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
+- If you haven't installed it yet, get [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 
 - Open Docker Desktop
@@ -23,7 +22,7 @@ A basic LAMP environment for PHP developers.
 This container runs with PHP 8.0.0 and the latest stable version of MySql.
 If you need to change the versions of PHP and/or Mysql:
 
-- Edit docker-composer.yml specifing the versions that you want (check on [https://hub.docker.com/](url) first)
+- Edit docker-composer.yml specifing the versions that you want (check on [hub.docker.com](https://hub.docker.com/) first)
 
 - In the root of the project, run 
 
