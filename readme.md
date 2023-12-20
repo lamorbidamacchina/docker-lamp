@@ -10,7 +10,7 @@ A basic LAMP environment for PHP developers.
 
 - Open Docker Desktop
 
-- Run
+- Open Terminal in the root folder and run
 
 `docker-compose up`
 
