@@ -21,5 +21,6 @@ services:
       MYSQL_DATABASE: db        
       MYSQL_USER: myuser        
       MYSQL_PASSWORD: mypass    
+      MYSQL_AUTHENTICATION_PLUGIN: mysql_native_password
     ports:      
       - "9906:3306"
