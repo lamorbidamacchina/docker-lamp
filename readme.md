@@ -30,3 +30,17 @@ If you need to change the versions of PHP and/or Mysql:
 `docker-compose up --build`
 
 - Edit Dockerfile similarly
+
+## Issues with Mysql privilegies
+
+If you are having troubles connecting to MySql via a GUI client or PhpMyAdmin, try to connect as root via command line and change privilegies to "myuser".
+
+`mysql -h 127.0.0.1 -P 9906 -u root -p`
+
+`GRANT ALL PRIVILEGES ON *.* TO 'myuser'@'%' WITH GRANT OPTION;`
+
+`FLUSH PRIVILEGES;`
+
+`exit;`
+
+then try to reconnect.
